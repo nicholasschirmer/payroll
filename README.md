@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Blockers
+
+## Issues generating mock data.
+
+- AI has come a long way but data however agricultural work does not seem to fall under its area of understanding. potentially some valuable trining data here for the future of agricultural AI
+
+## Issues using reduce functionality due to user error
+
+- Lost some time to my stupidity and forgetting to pull the data asyncronously.

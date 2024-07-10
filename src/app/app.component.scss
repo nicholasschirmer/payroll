@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+.pannel_left {
+  height: 100%;
+}
+
+.employees {
+  height: 100%;
+  max-height: 100%;
+}

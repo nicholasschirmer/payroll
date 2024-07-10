@@ -1,0 +1,44 @@
+.employees {
+  height: 100%;
+  display: flex;
+  gap: 5px;
+  overflow-y: auto;
+  border-radius: 15px;
+  padding: 10px;
+
+  .employees__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    mat-icon {
+      cursor: pointer;
+    }
+  }
+
+  .employees__subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .employees__body {
+    .icon_figure {
+      display: flex;
+      flex-direction: row;
+      padding: 5px;
+      justify-content: space-between;
+
+      mat-icon {
+        padding: 5px;
+      }
+
+      .randAmount {
+        width: 110px;
+        text-align: left;
+      }
+    }
+  }
+}

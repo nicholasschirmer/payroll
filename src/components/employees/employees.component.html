@@ -1,0 +1,64 @@
+<mat-card class="employees">
+    @if (employeeService.hasSelectedEmployee()) {
+        <div class="employees__header">
+            <mat-icon (click)="employeeService.hasSelectedEmployee.set(false)">arrow_back</mat-icon>
+            <h2>{{ employeeService.selectedEmployee().first_name + ' ' + employeeService.selectedEmployee().last_name}}</h2>
+        </div>
+        <div class="employees__subheader">
+            <div class="left">
+                <div>No.</div>
+                <div>{{ employeeService.selectedEmployee().employee_id }}</div>
+            </div>
+            <div class="right">
+                <div>Team</div>
+                <div>General Worker</div>
+            </div>
+        </div>
+        <mat-divider />
+        <div class="employees__body">
+            <h4>Overview</h4>
+            <mat-card>
+                <div class="employees__body__earnings icon_figure">
+                    <div class="up">
+                        <mat-icon>trending_up</mat-icon>
+                    </div>
+                    <div class="total">
+                        <small>Total Earnings</small>
+                        <div class="randAmount">
+                            R{{ earningsService.earningsTotal() }}
+                        </div>
+                    </div>
+                </div>
+                <div class="employees__body__deductions icon_figure">
+                    <div class="down">
+                        <mat-icon>trending_down</mat-icon>
+                    </div>
+                    <div class="total">
+                        <small>Total Deductions</small>
+                        <div class="randAmount">
+                            R{{ deductionsService.deductionsTotal() }}
+                        </div>
+                    </div>
+                </div>
+                <div class="employees__body__net icon_figure">
+                    <mat-icon>account_balance</mat-icon>
+                    <div class="total">
+                        <small>Net Pay</small>
+                        <div class="randAmount">
+                            R{{ earningsService.earningsTotal() - deductionsService.deductionsTotal()}}
+                        </div>
+                    </div>
+                </div>
+            </mat-card>
+        </div>
+    } @else {
+        <h2>Select an employee</h2>
+        <mat-selection-list>
+            @for (employee of _employees; track $index) {
+                <mat-list-item (click)="(chooseEmployee(employee))">
+                    <p mat-line>{{ employee.first_name }}&nbsp;{{ employee.last_name }}</p>
+                </mat-list-item>
+            }
+        </mat-selection-list>
+    }
+</mat-card>

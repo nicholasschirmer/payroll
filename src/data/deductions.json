@@ -1,0 +1,116 @@
+[
+  {
+    "name": "petrol",
+    "value": 500,
+    "description": "Petrol for the car",
+    "employee_id": "g345"
+  },
+  {
+    "name": "groceries",
+    "value": 200,
+    "description": "Groceries for the week",
+    "employee_id": "d160"
+  },
+  {
+    "name": "rent",
+    "value": 1000,
+    "description": "Rent for the month",
+    "employee_id": "v183"
+  },
+  {
+    "name": "utilities",
+    "value": 300,
+    "description": "Utilities for the month",
+    "employee_id": "b552"
+  },
+  {
+    "name": "entertainment",
+    "value": 100,
+    "description": "Entertainment for the month",
+    "employee_id": "j058"
+  },
+  {
+    "name": "clothing",
+    "value": 200,
+    "description": "Clothing for the month",
+    "employee_id": "l858"
+  },
+  {
+    "name": "medical",
+    "value": 200,
+    "description": "Medical expenses",
+    "employee_id": "n036"
+  },
+  {
+    "name": "savings",
+    "value": 500,
+    "description": "Savings for the month",
+    "employee_id": "l446"
+  },
+  {
+    "name": "education",
+    "value": 200,
+    "description": "Education expenses",
+    "employee_id": "n160"
+  },
+  {
+    "name": "travel",
+    "value": 500,
+    "description": "Travel expenses",
+    "employee_id": "p251"
+  },
+  {
+    "name": "insurance",
+    "value": 200,
+    "description": "Insurance for the month",
+    "employee_id": "i762"
+  },
+  {
+    "name": "phone",
+    "value": 100,
+    "description": "Phone expenses",
+    "employee_id": "f581"
+  },
+  {
+    "name": "internet",
+    "value": 100,
+    "description": "Internet expenses",
+    "employee_id": "c096"
+  },
+  {
+    "name": "gym",
+    "value": 100,
+    "description": "Gym membership",
+    "employee_id": "j247"
+  },
+  {
+    "name": "charity",
+    "value": 100,
+    "description": "Charity donations",
+    "employee_id": "a371"
+  },
+  {
+    "name": "gifts",
+    "value": 100,
+    "description": "Gifts for the month",
+    "employee_id": "k206"
+  },
+  {
+    "name": "dining",
+    "value": 200,
+    "description": "Dining expenses",
+    "employee_id": "w559"
+  },
+  {
+    "name": "alcohol",
+    "value": 100,
+    "description": "Alcohol expenses",
+    "employee_id": "h119"
+  },
+  {
+    "name": "coffee",
+    "value": 100,
+    "description": "Coffee expenses",
+    "employee_id": "n063"
+  }
+]

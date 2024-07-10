@@ -1,0 +1,611 @@
+[
+  {
+    "name": "Drafting",
+    "tooltip": "",
+    "Description": "Drafting of the plan",
+    "employee_id": "n063",
+    "type": "Group 1",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Driving",
+    "tooltip": "fuel cost to be deducted",
+    "employee_id": "n063",
+    "type": "Group 1",
+    "quantity": 5,
+    "rate": 15.0
+  },
+  {
+    "name": "Cutting",
+    "tooltip": "Logging",
+    "employee_id": "d160",
+    "type": "Group 2",
+    "quantity": 3,
+    "rate": 30.0
+  },
+  {
+    "name": "Painting",
+    "tooltip": "Painting the walls",
+    "employee_id": "d160",
+    "type": "Group 2",
+    "quantity": 4,
+    "rate": 25.0
+  },
+  {
+    "name": "Cleaning",
+    "tooltip": "Cleaning the area",
+    "employee_id": "l858",
+    "type": "Group 3",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Sweeping",
+    "tooltip": "Sweeping the floor",
+    "employee_id": "l858",
+    "type": "Group 3",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Welding",
+    "tooltip": "Welding the metal",
+    "employee_id": "n036",
+    "type": "Group 4",
+    "quantity": 2,
+    "rate": 30.0
+  },
+  {
+    "name": "Soldering",
+    "tooltip": "Soldering the wires",
+    "employee_id": "n036",
+    "type": "Group 4",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Sewing",
+    "tooltip": "Sewing the clothes",
+    "employee_id": "h119",
+    "type": "Group 5",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Knitting",
+    "tooltip": "Knitting the sweater",
+    "employee_id": "h119",
+    "type": "Group 5",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Cooking",
+    "tooltip": "Cooking the food",
+    "employee_id": "j058",
+    "type": "Group 6",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Baking",
+    "tooltip": "Baking the cake",
+    "employee_id": "j058",
+    "type": "Group 6",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Coding",
+    "tooltip": "Writing code",
+    "employee_id": "s123",
+    "type": "Group 7",
+    "quantity": 4,
+    "rate": 35.0
+  },
+  {
+    "name": "Testing",
+    "tooltip": "Testing the software",
+    "employee_id": "s123",
+    "type": "Group 7",
+    "quantity": 5,
+    "rate": 30.0
+  },
+  {
+    "name": "Debugging",
+    "tooltip": "Fixing bugs",
+    "employee_id": "t456",
+    "type": "Group 8",
+    "quantity": 3,
+    "rate": 40.0
+  },
+  {
+    "name": "Refactoring",
+    "tooltip": "Improving code quality",
+    "employee_id": "t456",
+    "type": "Group 8",
+    "quantity": 4,
+    "rate": 35.0
+  },
+  {
+    "name": "Designing",
+    "tooltip": "Creating visual designs",
+    "employee_id": "u789",
+    "type": "Group 9",
+    "quantity": 2,
+    "rate": 30.0
+  },
+  {
+    "name": "Prototyping",
+    "tooltip": "Creating prototypes",
+    "employee_id": "u789",
+    "type": "Group 9",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Analyzing",
+    "tooltip": "Analyzing data",
+    "employee_id": "v012",
+    "type": "Group 10",
+    "quantity": 4,
+    "rate": 30.0
+  },
+  {
+    "name": "Reporting",
+    "tooltip": "Generating reports",
+    "employee_id": "v012",
+    "type": "Group 10",
+    "quantity": 5,
+    "rate": 25.0
+  },
+  {
+    "name": "Researching",
+    "tooltip": "Conducting research",
+    "employee_id": "w345",
+    "type": "Group 11",
+    "quantity": 3,
+    "rate": 35.0
+  },
+  {
+    "name": "Documenting",
+    "tooltip": "Creating documentation",
+    "employee_id": "w345",
+    "type": "Group 11",
+    "quantity": 4,
+    "rate": 30.0
+  },
+  {
+    "name": "Deploying",
+    "tooltip": "Deploying software",
+    "employee_id": "x678",
+    "type": "Group 12",
+    "quantity": 2,
+    "rate": 25.0
+  },
+  {
+    "name": "Maintaining",
+    "tooltip": "Maintaining software",
+    "employee_id": "x678",
+    "type": "Group 12",
+    "quantity": 3,
+    "rate": 20.0
+  },
+  {
+    "name": "Troubleshooting",
+    "tooltip": "Fixing issues",
+    "employee_id": "y901",
+    "type": "Group 13",
+    "quantity": 4,
+    "rate": 25.0
+  },
+  {
+    "name": "Optimizing",
+    "tooltip": "Optimizing performance",
+    "employee_id": "y901",
+    "type": "Group 13",
+    "quantity": 5,
+    "rate": 20.0
+  },
+  {
+    "name": "Training",
+    "tooltip": "Providing training",
+    "employee_id": "z234",
+    "type": "Group 14",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Mentoring",
+    "tooltip": "Mentoring junior developers",
+    "employee_id": "z234",
+    "type": "Group 14",
+    "quantity": 4,
+    "rate": 20.0
+  },
+  {
+    "name": "Meeting",
+    "tooltip": "Attending meetings",
+    "employee_id": "a567",
+    "type": "Group 15",
+    "quantity": 2,
+    "rate": 15.0
+  },
+  {
+    "name": "Presenting",
+    "tooltip": "Giving presentations",
+    "employee_id": "a567",
+    "type": "Group 15",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Collaborating",
+    "tooltip": "Working together",
+    "employee_id": "b890",
+    "type": "Group 16",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Communicating",
+    "tooltip": "Effective communication",
+    "employee_id": "b890",
+    "type": "Group 16",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Planning",
+    "tooltip": "Strategic planning",
+    "employee_id": "c123",
+    "type": "Group 17",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Organizing",
+    "tooltip": "Organizing tasks",
+    "employee_id": "c123",
+    "type": "Group 17",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Coordinating",
+    "tooltip": "Coordinating activities",
+    "employee_id": "d456",
+    "type": "Group 18",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Supervising",
+    "tooltip": "Supervising team members",
+    "employee_id": "d456",
+    "type": "Group 18",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Motivating",
+    "tooltip": "Motivating team members",
+    "employee_id": "e789",
+    "type": "Group 19",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Inspiring",
+    "tooltip": "Inspiring team members",
+    "employee_id": "e789",
+    "type": "Group 19",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Problem Solving",
+    "tooltip": "Solving complex problems",
+    "employee_id": "f012",
+    "type": "Group 20",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Innovating",
+    "tooltip": "Driving innovation",
+    "employee_id": "f012",
+    "type": "Group 20",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Researching",
+    "tooltip": "Conducting research",
+    "employee_id": "g345",
+    "type": "Group 21",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Analyzing",
+    "tooltip": "Analyzing data",
+    "employee_id": "g345",
+    "type": "Group 21",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Writing",
+    "tooltip": "Writing documentation",
+    "employee_id": "h678",
+    "type": "Group 22",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Editing",
+    "tooltip": "Editing content",
+    "employee_id": "h678",
+    "type": "Group 22",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Marketing",
+    "tooltip": "Marketing activities",
+    "employee_id": "i901",
+    "type": "Group 23",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Sales",
+    "tooltip": "Sales activities",
+    "employee_id": "i901",
+    "type": "Group 23",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Customer Support",
+    "tooltip": "Providing customer support",
+    "employee_id": "j234",
+    "type": "Group 24",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Troubleshooting",
+    "tooltip": "Troubleshooting issues",
+    "employee_id": "j234",
+    "type": "Group 24",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Quality Assurance",
+    "tooltip": "Ensuring quality",
+    "employee_id": "k567",
+    "type": "Group 25",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Auditing",
+    "tooltip": "Conducting audits",
+    "employee_id": "k567",
+    "type": "Group 25",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Finance",
+    "tooltip": "Financial activities",
+    "employee_id": "l890",
+    "type": "Group 26",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Accounting",
+    "tooltip": "Accounting activities",
+    "employee_id": "l890",
+    "type": "Group 26",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Human Resources",
+    "tooltip": "HR activities",
+    "employee_id": "m123",
+    "type": "Group 27",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Recruiting",
+    "tooltip": "Recruiting activities",
+    "employee_id": "m123",
+    "type": "Group 27",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Training",
+    "tooltip": "Providing training",
+    "employee_id": "n456",
+    "type": "Group 28",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Development",
+    "tooltip": "Personal development",
+    "employee_id": "n456",
+    "type": "Group 28",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Planting Seeds",
+    "tooltip": "Sowing seeds for crop cultivation",
+    "employee_id": "n063",
+    "type": "Type A",
+    "quantity": 10,
+    "rate": 15.5
+  },
+  {
+    "name": "Harvesting Wheat",
+    "tooltip": "Gathering mature wheat for food production",
+    "employee_id": "d160",
+    "type": "Type B",
+    "quantity": 15,
+    "rate": 12.75
+  },
+  {
+    "name": "Pruning Vines",
+    "tooltip": "Trimming grapevines to promote growth and fruit production",
+    "employee_id": "l858",
+    "type": "Type C",
+    "quantity": 20,
+    "rate": 10.25
+  },
+  {
+    "name": "Milking Cows",
+    "tooltip": "Extracting milk from dairy cows for consumption",
+    "employee_id": "n036",
+    "type": "Type A",
+    "quantity": 12,
+    "rate": 14.0
+  },
+  {
+    "name": "Shearing Sheep",
+    "tooltip": "Removing wool from sheep for textile production",
+    "employee_id": "h119",
+    "type": "Type B",
+    "quantity": 8,
+    "rate": 18.0
+  },
+  {
+    "name": "Plowing Fields",
+    "tooltip": "Turning soil to prepare for planting crops",
+    "employee_id": "j058",
+    "type": "Type C",
+    "quantity": 18,
+    "rate": 11.5
+  },
+  {
+    "name": "Feeding Pigs",
+    "tooltip": "Providing food to pigs for growth and development",
+    "employee_id": "p251",
+    "type": "Type A",
+    "quantity": 25,
+    "rate": 9.99
+  },
+  {
+    "name": "Harvesting Apples",
+    "tooltip": "Collecting ripe apples from orchards",
+    "employee_id": "k206",
+    "type": "Type B",
+    "quantity": 14,
+    "rate": 13.25
+  },
+  {
+    "name": "Threshing Grain",
+    "tooltip": "Separating grains from stalks after harvest",
+    "employee_id": "a371",
+    "type": "Type C",
+    "quantity": 22,
+    "rate": 8.75
+  },
+  {
+    "name": "Beekeeping",
+    "tooltip": "Managing beehives to produce honey",
+    "employee_id": "l446",
+    "type": "Type A",
+    "quantity": 30,
+    "rate": 7.5
+  },
+  {
+    "name": "Grafting Fruit Trees",
+    "tooltip": "Joining a branch with a rootstock to produce a new tree",
+    "employee_id": "v428",
+    "type": "Type B",
+    "quantity": 16,
+    "rate": 11.0
+  },
+  {
+    "name": "Cultivating Corn",
+    "tooltip": "Growing corn crops by tilling and fertilizing",
+    "employee_id": "w559",
+    "type": "Type C",
+    "quantity": 19,
+    "rate": 12.0
+  },
+  {
+    "name": "Transplanting Seedlings",
+    "tooltip": "Moving young plants from seedbeds to fields",
+    "employee_id": "n160",
+    "type": "Type A",
+    "quantity": 11,
+    "rate": 16.5
+  },
+  {
+    "name": "Milling Grain",
+    "tooltip": "Processing harvested grains into flour",
+    "employee_id": "v183",
+    "type": "Type B",
+    "quantity": 13,
+    "rate": 14.75
+  },
+  {
+    "name": "Scouting for Pests",
+    "tooltip": "Monitoring fields for insect and disease threats",
+    "employee_id": "l534",
+    "type": "Type C",
+    "quantity": 17,
+    "rate": 9.25
+  },
+  {
+    "name": "Fertilizing Soil",
+    "tooltip": "Adding nutrients to soil to enhance plant growth",
+    "employee_id": "i762",
+    "type": "Type A",
+    "quantity": 21,
+    "rate": 10.5
+  },
+  {
+    "name": "Constructing Fences",
+    "tooltip": "Building barriers to protect crops and livestock",
+    "employee_id": "f581",
+    "type": "Type B",
+    "quantity": 23,
+    "rate": 8.0
+  },
+  {
+    "name": "Harvesting Berries",
+    "tooltip": "Picking ripe berries from bushes",
+    "employee_id": "b552",
+    "type": "Type C",
+    "quantity": 24,
+    "rate": 6.5
+  },
+  {
+    "name": "Watering Plants",
+    "tooltip": "Providing hydration to crops during dry periods",
+    "employee_id": "c096",
+    "type": "Type A",
+    "quantity": 28,
+    "rate": 11.75
+  },
+  {
+    "name": "Inspecting Livestock",
+    "tooltip": "Examining animals for health and condition",
+    "employee_id": "j247",
+    "type": "Type B",
+    "quantity": 26,
+    "rate": 9.5
+  }
+]
