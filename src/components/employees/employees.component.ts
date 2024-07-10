@@ -46,6 +46,11 @@ export class EmployeesComponent implements OnInit {
     this.getTotalDeductions(employee);
   }
 
+  unchooseEmployee(): void {
+    this.employeeService.hasSelectedEmployee.set(false);
+    this.earningsService.currentEmployeeEarnings.set([]);
+  }
+
   // function takes in employee sets there current earnings to an array of the total earnings filtered
   // by employee and the totals the amounts owed by the quantity of work
   // innefficient as it recalculates the total each time a new employee is selected and would be faster with

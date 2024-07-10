@@ -40,5 +40,29 @@
         text-align: left;
       }
     }
+
+    .employees__body__earnings {
+      mat-icon {
+        color: white;
+        background-color: var(--Local-Light-Green);
+        border-radius: 5px;
+      }
+    }
+
+    .employees__body__deductions {
+      mat-icon {
+        color: white;
+        background-color: var(--Local-Salmon);
+        border-radius: 5px;
+      }
+    }
+
+    .employees__body__net {
+      mat-icon {
+        color: white;
+        background-color: var(--Local-Aquamarine);
+        border-radius: 5px;
+      }
+    }
   }
 }

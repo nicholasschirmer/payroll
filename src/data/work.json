@@ -2,7 +2,7 @@
   {
     "name": "Drafting",
     "tooltip": "",
-    "Description": "Drafting of the plan",
+    "description": "Drafting of the plan",
     "employee_id": "n063",
     "type": "Group 1",
     "quantity": 2,
@@ -11,6 +11,617 @@
   {
     "name": "Driving",
     "tooltip": "fuel cost to be deducted",
+    "description": "",
+    "employee_id": "n063",
+    "type": "Group 1",
+    "quantity": 5,
+    "rate": 15.0
+  },
+  {
+    "name": "Cutting",
+    "tooltip": "Logging",
+    "description": "",
+    "employee_id": "d160",
+    "type": "Group 2",
+    "quantity": 3,
+    "rate": 30.0
+  },
+  {
+    "name": "Painting",
+    "tooltip": "Painting the walls",
+    "description": "",
+    "employee_id": "d160",
+    "type": "Group 2",
+    "quantity": 4,
+    "rate": 25.0
+  },
+  {
+    "name": "Cleaning",
+    "tooltip": "Cleaning the area",
+    "description": "",
+    "employee_id": "l858",
+    "type": "Group 3",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Sweeping",
+    "tooltip": "Sweeping the floor",
+    "description": "",
+    "employee_id": "l858",
+    "type": "Group 3",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Welding",
+    "tooltip": "Welding the metal",
+    "description": "",
+    "employee_id": "n036",
+    "type": "Group 4",
+    "quantity": 2,
+    "rate": 30.0
+  },
+  {
+    "name": "Soldering",
+    "tooltip": "Soldering the wires",
+    "description": "",
+    "employee_id": "n036",
+    "type": "Group 4",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Sewing",
+    "tooltip": "Sewing the clothes",
+    "description": "",
+    "employee_id": "h119",
+    "type": "Group 5",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Knitting",
+    "tooltip": "Knitting the sweater",
+    "description": "",
+    "employee_id": "h119",
+    "type": "Group 5",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Cooking",
+    "tooltip": "Cooking the food",
+    "description": "",
+    "employee_id": "j058",
+    "type": "Group 6",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Baking",
+    "tooltip": "Baking the cake",
+    "description": "",
+    "employee_id": "j058",
+    "type": "Group 6",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Coding",
+    "tooltip": "Writing code",
+    "description": "",
+    "employee_id": "s123",
+    "type": "Group 7",
+    "quantity": 4,
+    "rate": 35.0
+  },
+  {
+    "name": "Testing",
+    "tooltip": "Testing the software",
+    "description": "",
+    "employee_id": "s123",
+    "type": "Group 7",
+    "quantity": 5,
+    "rate": 30.0
+  },
+  {
+    "name": "Debugging",
+    "tooltip": "Fixing bugs",
+    "description": "",
+    "employee_id": "t456",
+    "type": "Group 8",
+    "quantity": 3,
+    "rate": 40.0
+  },
+  {
+    "name": "Refactoring",
+    "tooltip": "Improving code quality",
+    "description": "",
+    "employee_id": "t456",
+    "type": "Group 8",
+    "quantity": 4,
+    "rate": 35.0
+  },
+  {
+    "name": "Designing",
+    "tooltip": "Creating visual designs",
+    "description": "",
+    "employee_id": "u789",
+    "type": "Group 9",
+    "quantity": 2,
+    "rate": 30.0
+  },
+  {
+    "name": "Prototyping",
+    "tooltip": "Creating prototypes",
+    "description": "",
+    "employee_id": "u789",
+    "type": "Group 9",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Analyzing",
+    "tooltip": "Analyzing data",
+    "description": "",
+    "employee_id": "v012",
+    "type": "Group 10",
+    "quantity": 4,
+    "rate": 30.0
+  },
+  {
+    "name": "Reporting",
+    "tooltip": "Generating reports",
+    "description": "",
+    "employee_id": "v012",
+    "type": "Group 10",
+    "quantity": 5,
+    "rate": 25.0
+  },
+  {
+    "name": "Researching",
+    "tooltip": "Conducting research",
+    "description": "",
+    "employee_id": "w345",
+    "type": "Group 11",
+    "quantity": 3,
+    "rate": 35.0
+  },
+  {
+    "name": "Documenting",
+    "tooltip": "Creating documentation",
+    "description": "",
+    "employee_id": "w345",
+    "type": "Group 11",
+    "quantity": 4,
+    "rate": 30.0
+  },
+  {
+    "name": "Deploying",
+    "tooltip": "Deploying software",
+    "description": "",
+    "employee_id": "x678",
+    "type": "Group 12",
+    "quantity": 2,
+    "rate": 25.0
+  },
+  {
+    "name": "Maintaining",
+    "tooltip": "Maintaining software",
+    "description": "",
+    "employee_id": "x678",
+    "type": "Group 12",
+    "quantity": 3,
+    "rate": 20.0
+  },
+  {
+    "name": "Troubleshooting",
+    "tooltip": "Fixing issues",
+    "description": "",
+    "employee_id": "y901",
+    "type": "Group 13",
+    "quantity": 4,
+    "rate": 25.0
+  },
+  {
+    "name": "Optimizing",
+    "tooltip": "Optimizing performance",
+    "description": "",
+    "employee_id": "y901",
+    "type": "Group 13",
+    "quantity": 5,
+    "rate": 20.0
+  },
+  {
+    "name": "Training",
+    "tooltip": "Providing training",
+    "description": "",
+    "employee_id": "z234",
+    "type": "Group 14",
+    "quantity": 3,
+    "rate": 25.0
+  },
+  {
+    "name": "Mentoring",
+    "tooltip": "Mentoring junior developers",
+    "description": "",
+    "employee_id": "z234",
+    "type": "Group 14",
+    "quantity": 4,
+    "rate": 20.0
+  },
+  {
+    "name": "Meeting",
+    "tooltip": "Attending meetings",
+    "description": "",
+    "employee_id": "a567",
+    "type": "Group 15",
+    "quantity": 2,
+    "rate": 15.0
+  },
+  {
+    "name": "Presenting",
+    "tooltip": "Giving presentations",
+    "description": "",
+    "employee_id": "a567",
+    "type": "Group 15",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Collaborating",
+    "tooltip": "Working together",
+    "description": "",
+    "employee_id": "b890",
+    "type": "Group 16",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Communicating",
+    "tooltip": "Effective communication",
+    "description": "",
+    "employee_id": "b890",
+    "type": "Group 16",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Planning",
+    "tooltip": "Strategic planning",
+    "description": "",
+    "employee_id": "c123",
+    "type": "Group 17",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Organizing",
+    "tooltip": "Organizing tasks",
+    "description": "",
+    "employee_id": "c123",
+    "type": "Group 17",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Coordinating",
+    "tooltip": "Coordinating activities",
+    "description": "",
+    "employee_id": "d456",
+    "type": "Group 18",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Supervising",
+    "tooltip": "Supervising team members",
+    "description": "",
+    "employee_id": "d456",
+    "type": "Group 18",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Motivating",
+    "tooltip": "Motivating team members",
+    "description": "",
+    "employee_id": "e789",
+    "type": "Group 19",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Inspiring",
+    "tooltip": "Inspiring team members",
+    "description": "",
+    "employee_id": "e789",
+    "type": "Group 19",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Problem Solving",
+    "tooltip": "Solving complex problems",
+    "description": "",
+    "employee_id": "f012",
+    "type": "Group 20",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Innovating",
+    "tooltip": "Driving innovation",
+    "description": "",
+    "employee_id": "f012",
+    "type": "Group 20",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Researching",
+    "tooltip": "Conducting research",
+    "description": "",
+    "employee_id": "g345",
+    "type": "Group 21",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Analyzing",
+    "tooltip": "Analyzing data",
+    "description": "",
+    "employee_id": "g345",
+    "type": "Group 21",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Writing",
+    "tooltip": "Writing documentation",
+    "description": "",
+    "employee_id": "h678",
+    "type": "Group 22",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Editing",
+    "tooltip": "Editing content",
+    "description": "",
+    "employee_id": "h678",
+    "type": "Group 22",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Marketing",
+    "tooltip": "Marketing activities",
+    "description": "",
+    "employee_id": "i901",
+    "type": "Group 23",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Sales",
+    "tooltip": "Sales activities",
+    "description": "",
+    "employee_id": "i901",
+    "type": "Group 23",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Customer Support",
+    "tooltip": "Providing customer support",
+    "description": "",
+    "employee_id": "j234",
+    "type": "Group 24",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Troubleshooting",
+    "tooltip": "Troubleshooting issues",
+    "description": "",
+    "employee_id": "j234",
+    "type": "Group 24",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Quality Assurance",
+    "tooltip": "Ensuring quality",
+    "description": "",
+    "employee_id": "k567",
+    "type": "Group 25",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Auditing",
+    "tooltip": "Conducting audits",
+    "description": "",
+    "employee_id": "k567",
+    "type": "Group 25",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Finance",
+    "tooltip": "Financial activities",
+    "description": "",
+    "employee_id": "l890",
+    "type": "Group 26",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Accounting",
+    "tooltip": "Accounting activities",
+    "description": "",
+    "employee_id": "l890",
+    "type": "Group 26",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Human Resources",
+    "tooltip": "HR activities",
+    "description": "",
+    "employee_id": "m123",
+    "type": "Group 27",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Recruiting",
+    "tooltip": "Recruiting activities",
+    "description": "",
+    "employee_id": "m123",
+    "type": "Group 27",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Training",
+    "tooltip": "Providing training",
+    "description": "",
+    "employee_id": "n456",
+    "type": "Group 28",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Mentoring",
+    "tooltip": "Mentoring junior developers",
+    "description": "",
+    "employee_id": "n456",
+    "type": "Group 28",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Meeting",
+    "tooltip": "Attending meetings",
+    "description": "",
+    "employee_id": "a567",
+    "type": "Group 29",
+    "quantity": 2,
+    "rate": 15.0
+  },
+  {
+    "name": "Presenting",
+    "tooltip": "Giving presentations",
+    "description": "",
+    "employee_id": "a567",
+    "type": "Group 29",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Collaborating",
+    "tooltip": "Working together",
+    "description": "",
+    "employee_id": "b890",
+    "type": "Group 30",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Communicating",
+    "tooltip": "Effective communication",
+    "description": "",
+    "employee_id": "b890",
+    "type": "Group 30",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Planning",
+    "tooltip": "Strategic planning",
+    "description": "",
+    "employee_id": "c123",
+    "type": "Group 31",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Organizing",
+    "tooltip": "Organizing tasks",
+    "description": "",
+    "employee_id": "c123",
+    "type": "Group 31",
+    "quantity": 4,
+    "rate": 10.0
+  },
+  {
+    "name": "Coordinating",
+    "tooltip": "Coordinating activities",
+    "description": "",
+    "employee_id": "d456",
+    "type": "Group 32",
+    "quantity": 2,
+    "rate": 5.0
+  },
+  {
+    "name": "Supervising",
+    "tooltip": "Supervising team members",
+    "description": "",
+    "employee_id": "d456",
+    "type": "Group 32",
+    "quantity": 3,
+    "rate": 10.0
+  },
+  {
+    "name": "Motivating",
+    "tooltip": "Motivating team members",
+    "description": "",
+    "employee_id": "e789",
+    "type": "Group 33",
+    "quantity": 4,
+    "rate": 15.0
+  },
+  {
+    "name": "Inspiring",
+    "tooltip": "Inspiring team members",
+    "description": "",
+    "employee_id": "e789",
+    "type": "Group 33",
+    "quantity": 5,
+    "rate": 10.0
+  },
+  {
+    "name": "Problem Solving",
+    "tooltip": "Solving complex problems",
+    "description": "",
+    "employee_id": "f012",
+    "type": "Group 34",
+    "quantity": 3,
+    "rate": 15.0
+  },
+  {
+    "name": "Innovating",
+    "tooltip": "Driving innovation",
+    "description": "",
+    "employee_id": "f012",
+    "type": "Group 34"
+  },
+  {
+    "name": "Drafting",
+    "tooltip": "",
+    "description": "Drafting of the plan",
+    "employee_id": "n063",
+    "type": "Group 1",
+    "quantity": 2,
+    "rate": 20.0
+  },
+  {
+    "name": "Driving",
+    "tooltip": "fuel cost to be deducted",
+    "description": "",
     "employee_id": "n063",
     "type": "Group 1",
     "quantity": 5,

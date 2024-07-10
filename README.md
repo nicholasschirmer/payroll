@@ -35,3 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Issues using reduce functionality due to user error
 
 - Lost some time to my stupidity and forgetting to pull the data asyncronously.
+
+## Repeat data
+
+- in my persuit to make data generation as fast as possible I accidentally duplicated data

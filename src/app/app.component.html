@@ -1,4 +1,7 @@
 <div class="main">
     <app-items-pannel class="pannel_left"></app-items-pannel>
     <app-employees class="employees"></app-employees>
+    @if (earningsService.currentEmployeeEarnings().length > 0) {
+    <app-work class="work"></app-work>
+    }
 </div>
